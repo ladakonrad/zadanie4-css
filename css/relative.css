@@ -1,0 +1,21 @@
+@media all and (max-width: 1200px) {}
+
+@media all and (max-width: 922x) {
+
+
+    #center {
+    flex-basis: 80%;
+}
+
+#right {
+    flex-basis: 20%;
+}
+    
+    #left {
+        
+    }
+    
+@media all and (max-width: 768px) {
+
+
+    @media all and (max-width: 480px) {}
