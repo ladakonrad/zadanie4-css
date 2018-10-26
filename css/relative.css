@@ -1,21 +1,46 @@
 @media all and (max-width: 1200px) {}
 
-@media all and (max-width: 922x) {
-
+@media all and (max-width: 922px) {
 
     #center {
-    flex-basis: 80%;
-}
-
-#right {
-    flex-basis: 20%;
-}
-    
-    #left {
-        
+        flex-basis: 80%;
+        order: 0;
     }
-    
-@media all and (max-width: 768px) {
 
+    #right {
+        flex-basis: 20%;
+        order: 0;
 
-    @media all and (max-width: 480px) {}
+    }
+
+    #left {
+        order: 1;
+        flex-basis: 100%;
+    }
+
+    footer {
+        order: 2;
+        flex-basis: 100%;
+    }
+
+    @media all and (max-width: 768px) {
+
+        #center {
+            flex-basis: 100%;
+            order: 0;
+        }
+
+        #left {
+            flex-basis: 100%;
+            order: 1;
+        }
+
+        #right {
+            flex-basis: 100%;
+            order: 2;
+        }
+
+        footer {
+            flex-basis: 100%;
+            order: 3;
+        }
